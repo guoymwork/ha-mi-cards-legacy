@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 编辑器
+.vscode/
+.idea/
+
+# 本地凭据（绝不入库）
+ha_tokens.json
+ha_at.txt
+ha_token.txt
+*.token
+
+# 构建产物与截图（不随仓库发布）
+dist/
+screenshots/
+
+# 安装包
+*.zip
